@@ -1,0 +1,136 @@
+Date : 2022-03-10 18:35:24
+Directory : /home/radouane/Documents/workspace/FORMATION/blog
+Total : 74 files,  9161 codes, 1207 comments, 508 blanks, all 10876 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          3 |      7,706 |          0 |          3 |      7,709 |
+| PHP        |         57 |      1,276 |      1,149 |        462 |      2,887 |
+| HTML       |          5 |         64 |          0 |          5 |         69 |
+| Markdown   |          1 |         44 |          0 |         21 |         65 |
+| XML        |          1 |         29 |          2 |          1 |         32 |
+| CSS        |          2 |         15 |          0 |          3 |         18 |
+| YAML       |          1 |         14 |          0 |          1 |         15 |
+| JavaScript |          4 |         13 |         56 |         12 |         81 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                               |         74 |      9,161 |      1,207 |        508 |     10,876 |
+| app                                                                                                                             |         19 |        318 |        192 |        108 |        618 |
+| app/Console                                                                                                                     |          1 |         15 |         12 |          6 |         33 |
+| app/Exceptions                                                                                                                  |          1 |         19 |         17 |          6 |         42 |
+| app/Http                                                                                                                        |         10 |        141 |         74 |         46 |        261 |
+| app/Http/Controllers                                                                                                            |          1 |         10 |          0 |          4 |         14 |
+| app/Http/Middleware                                                                                                             |          8 |         92 |         52 |         35 |        179 |
+| app/Models                                                                                                                      |          2 |         59 |         24 |         20 |        103 |
+| app/Providers                                                                                                                   |          5 |         84 |         65 |         30 |        179 |
+| bootstrap                                                                                                                       |          1 |         17 |         30 |          9 |         56 |
+| config                                                                                                                          |         15 |        551 |        717 |        237 |      1,505 |
+| database                                                                                                                        |          6 |        122 |         56 |         25 |        203 |
+| database/factories                                                                                                              |          1 |         25 |         10 |          5 |         40 |
+| database/migrations                                                                                                             |          4 |         88 |         40 |         16 |        144 |
+| database/seeders                                                                                                                |          1 |          9 |          6 |          4 |         19 |
+| public                                                                                                                          |          2 |         29 |         30 |         14 |         73 |
+| resources                                                                                                                       |         13 |        229 |         78 |         44 |        351 |
+| resources/css                                                                                                                   |          1 |          0 |          0 |          1 |          1 |
+| resources/js                                                                                                                    |          2 |          4 |         18 |          9 |         31 |
+| resources/lang                                                                                                                  |          4 |        144 |         60 |         24 |        228 |
+| resources/lang/en                                                                                                               |          4 |        144 |         60 |         24 |        228 |
+| resources/posts                                                                                                                 |          4 |         52 |          0 |          4 |         56 |
+| resources/views                                                                                                                 |          2 |         29 |          0 |          6 |         35 |
+| routes                                                                                                                          |          4 |         32 |         40 |         17 |         89 |
+| tests                                                                                                                           |          4 |         41 |         15 |         19 |         75 |
+| tests/Feature                                                                                                                   |          1 |         12 |          5 |          5 |         22 |
+| tests/Unit                                                                                                                      |          1 |         10 |          5 |          4 |         19 |
+| vendor                                                                                                                          |          2 |         17 |         27 |          1 |         45 |
+| vendor/facade                                                                                                                   |          2 |         17 |         27 |          1 |         45 |
+| vendor/facade/ignition                                                                                                          |          2 |         17 |         27 |          1 |         45 |
+| vendor/facade/ignition/resources                                                                                                |          2 |         17 |         27 |          1 |         45 |
+| vendor/facade/ignition/resources/compiled                                                                                       |          2 |         17 |         27 |          1 |         45 |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                        | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/radouane/Documents/workspace/FORMATION/blog/.styleci.yml                                                                  | YAML       |         14 |          0 |          1 |         15 |
+| /home/radouane/Documents/workspace/FORMATION/blog/README.md                                                                     | Markdown   |         44 |          0 |         21 |         65 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Console/Kernel.php                                                        | PHP        |         15 |         12 |          6 |         33 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Exceptions/Handler.php                                                    | PHP        |         19 |         17 |          6 |         42 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Controllers/Controller.php                                           | PHP        |         10 |          0 |          4 |         14 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Kernel.php                                                           | PHP        |         39 |         22 |          7 |         68 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/Authenticate.php                                          | PHP        |         12 |          6 |          4 |         22 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/EncryptCookies.php                                        | PHP        |          8 |          6 |          4 |         18 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/PreventRequestsDuringMaintenance.php                      | PHP        |          8 |          6 |          4 |         18 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/RedirectIfAuthenticated.php                               | PHP        |         19 |          8 |          6 |         33 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/TrimStrings.php                                           | PHP        |         11 |          5 |          4 |         20 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/TrustHosts.php                                            | PHP        |         12 |          5 |          4 |         21 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/TrustProxies.php                                          | PHP        |         14 |         10 |          5 |         29 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Http/Middleware/VerifyCsrfToken.php                                       | PHP        |          8 |          6 |          4 |         18 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Models/Post.php                                                           | PHP        |         36 |          9 |         13 |         58 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Models/User.php                                                           | PHP        |         23 |         15 |          7 |         45 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Providers/AppServiceProvider.php                                          | PHP        |         12 |         12 |          5 |         29 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Providers/AuthServiceProvider.php                                         | PHP        |         13 |         12 |          6 |         31 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Providers/BroadcastServiceProvider.php                                    | PHP        |         12 |          5 |          5 |         22 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Providers/EventServiceProvider.php                                        | PHP        |         17 |         11 |          5 |         33 |
+| /home/radouane/Documents/workspace/FORMATION/blog/app/Providers/RouteServiceProvider.php                                        | PHP        |         30 |         25 |          9 |         64 |
+| /home/radouane/Documents/workspace/FORMATION/blog/bootstrap/app.php                                                             | PHP        |         17 |         30 |          9 |         56 |
+| /home/radouane/Documents/workspace/FORMATION/blog/composer.json                                                                 | JSON       |         63 |          0 |          1 |         64 |
+| /home/radouane/Documents/workspace/FORMATION/blog/composer.lock                                                                 | JSON       |      7,625 |          0 |          1 |      7,626 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/app.php                                                                | PHP        |         82 |        121 |         33 |        236 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/auth.php                                                               | PHP        |         28 |         70 |         14 |        112 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/broadcasting.php                                                       | PHP        |         30 |         22 |         13 |         65 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/cache.php                                                              | PHP        |         58 |         34 |         19 |        111 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/cors.php                                                               | PHP        |          3 |         29 |          3 |         35 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/database.php                                                           | PHP        |         81 |         45 |         22 |        148 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/filesystems.php                                                        | PHP        |         29 |         32 |         13 |         74 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/hashing.php                                                            | PHP        |         12 |         32 |          9 |         53 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/logging.php                                                            | PHP        |         66 |         34 |         19 |        119 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/mail.php                                                               | PHP        |         53 |         47 |         19 |        119 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/queue.php                                                              | PHP        |         47 |         32 |         15 |         94 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/sanctum.php                                                            | PHP        |         14 |         41 |         11 |         66 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/services.php                                                           | PHP        |         16 |         11 |          7 |         34 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/session.php                                                            | PHP        |         22 |        147 |         33 |        202 |
+| /home/radouane/Documents/workspace/FORMATION/blog/config/view.php                                                               | PHP        |         10 |         20 |          7 |         37 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/factories/UserFactory.php                                            | PHP        |         25 |         10 |          5 |         40 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/migrations/2014_10_12_000000_create_users_table.php                  | PHP        |         23 |         10 |          4 |         37 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/migrations/2014_10_12_100000_create_password_resets_table.php        | PHP        |         19 |         10 |          4 |         33 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/migrations/2019_08_19_000000_create_failed_jobs_table.php            | PHP        |         23 |         10 |          4 |         37 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php | PHP        |         23 |         10 |          4 |         37 |
+| /home/radouane/Documents/workspace/FORMATION/blog/database/seeders/DatabaseSeeder.php                                           | PHP        |          9 |          6 |          4 |         19 |
+| /home/radouane/Documents/workspace/FORMATION/blog/package.json                                                                  | JSON       |         18 |          0 |          1 |         19 |
+| /home/radouane/Documents/workspace/FORMATION/blog/phpunit.xml                                                                   | XML        |         29 |          2 |          1 |         32 |
+| /home/radouane/Documents/workspace/FORMATION/blog/public/app.css                                                                | CSS        |         15 |          0 |          2 |         17 |
+| /home/radouane/Documents/workspace/FORMATION/blog/public/index.php                                                              | PHP        |         14 |         30 |         12 |         56 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/css/app.css                                                         | CSS        |          0 |          0 |          1 |          1 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/js/app.js                                                           | JavaScript |          1 |          0 |          1 |          2 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/js/bootstrap.js                                                     | JavaScript |          3 |         18 |          8 |         29 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/lang/en/auth.php                                                    | PHP        |          6 |         10 |          5 |         21 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/lang/en/pagination.php                                              | PHP        |          5 |         10 |          5 |         20 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/lang/en/passwords.php                                               | PHP        |          8 |         10 |          5 |         23 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/lang/en/validation.php                                              | PHP        |        125 |         30 |          9 |        164 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/posts/my-first-post.html                                            | HTML       |         13 |          0 |          1 |         14 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/posts/my-fourth-post.html                                           | HTML       |         13 |          0 |          1 |         14 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/posts/my-second-post.html                                           | HTML       |         13 |          0 |          1 |         14 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/posts/my-third-post.html                                            | HTML       |         13 |          0 |          1 |         14 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/views/post.blade.php                                                | PHP        |         12 |          0 |          4 |         16 |
+| /home/radouane/Documents/workspace/FORMATION/blog/resources/views/posts.blade.php                                               | PHP        |         17 |          0 |          2 |         19 |
+| /home/radouane/Documents/workspace/FORMATION/blog/routes/api.php                                                                | PHP        |          6 |         10 |          4 |         20 |
+| /home/radouane/Documents/workspace/FORMATION/blog/routes/channels.php                                                           | PHP        |          5 |         10 |          4 |         19 |
+| /home/radouane/Documents/workspace/FORMATION/blog/routes/console.php                                                            | PHP        |          6 |         10 |          4 |         20 |
+| /home/radouane/Documents/workspace/FORMATION/blog/routes/web.php                                                                | PHP        |         15 |         10 |          5 |         30 |
+| /home/radouane/Documents/workspace/FORMATION/blog/server.php                                                                    | PHP        |          8 |          9 |          5 |         22 |
+| /home/radouane/Documents/workspace/FORMATION/blog/tests/CreatesApplication.php                                                  | PHP        |         12 |          5 |          6 |         23 |
+| /home/radouane/Documents/workspace/FORMATION/blog/tests/Feature/ExampleTest.php                                                 | PHP        |         12 |          5 |          5 |         22 |
+| /home/radouane/Documents/workspace/FORMATION/blog/tests/TestCase.php                                                            | PHP        |          7 |          0 |          4 |         11 |
+| /home/radouane/Documents/workspace/FORMATION/blog/tests/Unit/ExampleTest.php                                                    | PHP        |         10 |          5 |          4 |         19 |
+| /home/radouane/Documents/workspace/FORMATION/blog/vendor/facade/ignition/resources/compiled/ignition.js                         | JavaScript |          5 |         27 |          0 |         32 |
+| /home/radouane/Documents/workspace/FORMATION/blog/vendor/facade/ignition/resources/compiled/index.html                          | HTML       |         12 |          0 |          1 |         13 |
+| /home/radouane/Documents/workspace/FORMATION/blog/webpack.mix.js                                                                | JavaScript |          4 |         11 |          3 |         18 |
+| Total                                                                                                                           |            |      9,161 |      1,207 |        508 |     10,876 |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

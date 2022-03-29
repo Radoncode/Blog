@@ -2,11 +2,8 @@
 
 <title>My Blog</title>
 <link rel="stylesheet" href="/app.css">
-<link rel="stylesheet" href="/foo.css">
 
 <body>
-
-    @yield('content')
-
+    {{ $slot }}
 </body>
-</html>
+<html>
